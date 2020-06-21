@@ -2,6 +2,7 @@
 :root {
   --main-text-color: #fff;
 }
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Special+Elite&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -32,7 +33,14 @@ header {
 }
 h1 {
   font-size: 2.4em;
-  margin-bottom: 10px;
+  margin-bottom: 2px;
+  color: #ccc;
+  font-family: 'Special Elite', cursive;
+}
+p {
+  font-size: 1.5em;
+  margin-bottom: 8px;
+  font-family: 'Caveat', cursive;
 }
 header input {
   width: 100%;
@@ -57,20 +65,13 @@ main {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  padding: 60px;
+  padding: 30px 80px;
   margin: auto;
   background-color: black;
   opacity: 80%;
-  margin-bottom: 20px;
   border-radius: 20px;
 }
-.card {
-  margin-top: 20px;
-}
-.card:hover {
-  transform: scale(1.1);
-  transition: 0.2s ease-out;
-}
+
 .location .city {
   color: var(--main-text-color);
   font-size: 32px;
@@ -78,27 +79,22 @@ main {
   margin-bottom: 10px;
 }
 
-.location .date {
-  color: var(--main-text-color);
-  font-size: 20px;
-}
-
 .current .temp {
   color: var(--main-text-color);
   font-size: 60px;
   font-weight: 900;
-  margin: 20px 0px;
-  text-shadow: 2px 8px rgba(0, 0, 0, 0.6);
+  margin: 10px 0px;
 }
 .current .temp span {
   font-weight: 500;
 }
-
+.current .weather-icon {
+  margin: auto;
+}
 .current .weather {
   color: var(--main-text-color);
   font-size: 32px;
   font-weight: 700;
   font-style: italic;
-  margin-bottom: 15px;
-  text-shadow: 0px 3px rgba(0, 0, 0, 0.4);
+  margin-top: 10px;
 }
