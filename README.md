@@ -1,4 +1,4 @@
-# Weather3301
+# Weather App
 
 this is a simple web application that displays the current weather.
 
